@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "38373e2c-741a-4429-9e0d-55d69aefe55e",
+		"name": "AtmLocator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Atms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getAll/`s-Hertogenbosch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAll",
+						"`s-Hertogenbosch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Atms Based on City",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getAll/`s-Hertogenbosch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAll",
+						"`s-Hertogenbosch"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
